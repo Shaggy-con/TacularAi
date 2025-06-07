@@ -5,6 +5,13 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { LogIn } from "lucide-react";
 
+/**
+ * Renders a client-side authentication page with sign-up, login, and session management.
+ *
+ * Displays sign-up and login forms when no user session exists, allowing users to create an account or log in with email and password. If a session is active, shows the logged-in user's name and a sign-out button.
+ *
+ * @remark Alerts are shown for success or failure of authentication actions.
+ */
 export default function Home() {
   const { data: session } = authClient.useSession();
 
