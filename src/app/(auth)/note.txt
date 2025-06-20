@@ -1,0 +1,2 @@
+//layout are reusable file that will appl to evry route in the AUTH folder
+//(auth ) will make sure to remove /auth/sign-in to just sig-in
